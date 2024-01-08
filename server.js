@@ -17,7 +17,7 @@ dotenv.config();
 //Database Config
 connectDB();
 
-const __filename = findURLToPath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 //Rest object
