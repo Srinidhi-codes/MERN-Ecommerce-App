@@ -46,5 +46,5 @@ app.use('/api/v1/product', productRoutes);
 
 // Listening
 app.listen(PORT, () => {
-
+    console.log(`running at ${PORT}`)
 });
